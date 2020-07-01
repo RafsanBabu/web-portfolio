@@ -2,9 +2,16 @@ body{
     font-family: 'Domine', serif;
 
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .name-highlight{
     color: deeppink;
@@ -17,4 +24,63 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url('img/header-bg.png');
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: deeppink;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.dream-banner{
+    background-image: url('img/biography-bg.png');
+    background-repeat: no-repeat;
+}
+.picture{
+    float: left;
+    padding-left: 2%;
+}
+.work{
+    background-image: url('img/latest-work-bg.png');
+    background-repeat: no-repeat;
+}
+.client{
+    margin-left: 35%;
+}
+.client h4{
+    margin-left: 150px;
+}
+.client h5{
+    margin-left: 130px;
+}
+q{
+    margin-right: 120px;
+    color: darkgray;
+}
+.contact{
+    background-color: deeppink;
+    padding: 20px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: black;
+    align-items: center;
+    margin-right: 120px;
+}
+.client-feedback{
+    background-image: url('img/footer-bg.png');
+    background-repeat: no-repeat;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
